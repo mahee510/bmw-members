@@ -1,0 +1,57 @@
+name: esuba_mobile_app
+description: A new Flutter project.
+
+version: 1.0.6+6
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.16.1
+  http: ^0.12.1
+  sqflite: ^1.3.1
+  rich_alert: ^0.1.32
+  carousel_pro: ^1.0.0
+  url_launcher: ^5.4.1
+  url_launcher_macos: ^0.0.1+7
+  connectivity: ^0.4.6+1
+  auto_size_text: ^2.1.0
+  progress_dialog: ^1.2.4
+  themify_flutter: ^1.0.0
+  carousel_slider: ^2.1.0
+  json_serializable: ^3.3.0
+  modal_progress_hud: ^0.1.3
+  font_awesome_flutter: ^8.8.1
+  cached_network_image: ^2.2.0+1
+  flutter_advanced_networkimage: ^0.7.0
+  flutter_screenutil: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.2
+
+flutter_icons:
+  image_path: "assets/images/icon.png"
+  android: true
+  ios: false
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/icon.png
+    - assets/user.json
+  fonts:
+    - family: Montserrat
+      fonts:
+      - asset: assets/fonts/OpenSans-Semibold.ttf
+  
+    - family: Bold
+      fonts:
+      - asset: assets/fonts/OpenSans-ExtraBold.ttf
+        weight: 300
